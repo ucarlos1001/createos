@@ -173,25 +173,25 @@
 
                                     <div class="data">
                                         <h1>Indentificação do cliente</h1>
-                                        <input type="text" name="nome_cliente" placeholder="Nome completo*" value="Carlos Eduardo">
-                                        <input type="text" name="apelido" placeholder="Apelido" value="Dudu">
-                                        <input type="text" name="cpf" placeholder="Número de CPF*" value="15562626265">
+                                        <input type="text" name="nome_cliente" placeholder="Nome completo*">
+                                        <input type="text" name="apelido" placeholder="Apelido">
+                                        <input type="text" name="cpf" placeholder="Número de CPF*">
                                     </div>
 
                                     <div class="data">
                                         <h1>Contato com o cliente</h1>
-                                        <input type="text" name="email" placeholder="Endereço de E-mail" value="ucarlos1001@gmail.com">
-                                        <input type="text" name="telefone" placeholder="Número de Telefone/Celular*" value="1929945292">
-                                        <input type="text" name="facebook" placeholder="Facebook" value="ucarlos1001">
+                                        <input type="text" name="email" placeholder="Endereço de E-mail">
+                                        <input type="text" name="telefone" placeholder="Número de Telefone/Celular*">
+                                        <input type="text" name="facebook" placeholder="Facebook">
                                     </div>
 
                                     <div class="data">
                                         <h1>Endereço do cliente</h1>
-                                        <input type="text" name="endereco" placeholder="Endereço*" value="Rua na casa do caralho, JD velha do caralho">
-                                        <input type="text" name="cidade" placeholder="Cidade*" value="Desgraçaaa">
+                                        <input type="text" name="endereco" placeholder="Endereço*">
+                                        <input type="text" name="cidade" placeholder="Cidade*">
                                         <select name="estado">
-                                            <option value="0" disabled>Selecionar Estado*</option>
-                                            <option value="Acre" selected>Acre</option>
+                                            <option value="0" disabled selected>Selecionar Estado*</option>
+                                            <option value="Acre">Acre</option>
                                             <option value="Alagoas">Alagoas</option>
                                             <option value="Amapá">Amapá</option>
                                             <option value="Amazonas">Amazonas</option>
@@ -230,8 +230,8 @@
 
                                     <div class="data">
                                         <h1>Outras Informações</h1>
-                                        <input type="text" name="equipamento" placeholder="Equipamento" value="Carroo">
-                                        <input type="text" name="nome_atendente" placeholder="Nome do atendente" value="Aninha da Quebrada">
+                                        <input type="text" name="equipamento" placeholder="Equipamento">
+                                        <input type="text" name="nome_atendente" placeholder="Nome do atendente">
                                         <input type="date" name="inicio_servico"
                                             title="Data de recebimento do equipamento">
                                     </div>
@@ -247,8 +247,8 @@
 
                                     <div class="info">
                                         <h1>Dados entregue pelo o técnico</h1>
-                                        <input type="text" name="nome_tecnico" placeholder="Nome do Técnico" value="Vanessa">
-                                        <input type="text" name="horas_trabalho" placeholder="Horas de trabalho" value="4 Horas">
+                                        <input type="text" name="nome_tecnico" placeholder="Nome do Técnico">
+                                        <input type="text" name="horas_trabalho" placeholder="Horas de trabalho">
                                         <input type="date" name="final_servico">
                                     </div>
 
